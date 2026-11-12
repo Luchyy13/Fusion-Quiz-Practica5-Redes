@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: BotonesMenuInicial Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: BotonesMenuInicial
+  m_TableCollectionNameGuidString: a7a8cbdd1f7303b4996d4fdfcd97dc73
+  m_Entries:
+  - m_Id: 961594662912
+    m_Key: Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 976945815552
+    m_Key: Player Name Heading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1018981130240
+    m_Key: Player Name Input Field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1057212211200
+    m_Key: Room Name Heading
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1094067560448
+    m_Key: Room Name Input Field
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1150057324544
+    m_Key: Create Room Btn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1186405163008
+    m_Key: Join Room Btn
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 630804384389005336
+  references:
+    version: 2
+    RefIds:
+    - rid: 630804384389005336
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1794435718384

@@ -2,6 +2,8 @@ using Fusion;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Settings;
 using TMPro;
 using UnityEngine;
 
@@ -9,8 +11,7 @@ public class FusionConnector : MonoBehaviour
 {
     public string LocalPlayerName { get; set; }
 
-    public string LocalRoomName { get; set; } 
-   
+    public string LocalRoomName { get; set; }
 
     [SerializeField, Tooltip("The network runner prefab that will be instantiated when looking starting the game.")]
     private NetworkRunner _networkRunnerPrefab;
@@ -40,6 +41,10 @@ public class FusionConnector : MonoBehaviour
 
     [Tooltip("The message shown before starting the game.")]
     public TextMeshProUGUI preGameMessage;
+
+
+    [SerializeField]
+    private LocalizedString roomNameText;
 
     public static FusionConnector Instance { get; private set; }
 
@@ -78,7 +83,10 @@ public class FusionConnector : MonoBehaviour
 
         if (result.Ok)
         {
-            roomName.text = "Room:  " + newRunner.SessionInfo.Name;
+            //Antigua linea: roomName.text = "Room:  " + newRunner.SessionInfo.Name;
+            //Correcion
+            roomName.text = newRunner.SessionInfo.Name;
+
 
             GoToGame();
         }
@@ -122,16 +130,19 @@ public class FusionConnector : MonoBehaviour
 
         if (runner.IsSharedModeMasterClient == true)
         {
-            SetPregameMessage("Game Is Ready To Start");
+            // SetPregameMessage("Game Is Ready To Start");
+            SetPregameMessage("PregameMsg1");
         }
         else
         {
-            SetPregameMessage("Waiting for master client to start game.");
+            //SetPregameMessage("Waiting for master client to start game.");
+            SetPregameMessage("PregameMsg2");
         }
     }
-    public void SetPregameMessage(string message)
+    public void SetPregameMessage(string key)
     {
-        preGameMessage.text = message;
+        /*preGameMessage.text =
+            LocalizationSettings.StringDatabase.GetLocalizedString("BotonesLobby", key);*/
     }
 
     public void StartTriviaGame()

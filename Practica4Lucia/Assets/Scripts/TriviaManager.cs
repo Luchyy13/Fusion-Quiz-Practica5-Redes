@@ -2,6 +2,7 @@ using Fusion;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Localization.Settings;
 using UnityEngine.UI;
 
 /// <summary>
@@ -142,7 +143,8 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
         if (QuestionsAsked == 0)
             questionIndicatorText.text = "";
         else
-            questionIndicatorText.text = "Question: " + QuestionsAsked + " / " + maxQuestions;
+            //questionIndicatorText.text = "Question: " + QuestionsAsked + " / " + maxQuestions;
+            questionIndicatorText.text = QuestionsAsked + " / " + maxQuestions;
 
         // Disallows players from joining once the game is started.
         if (Runner.IsSharedModeMasterClient)
@@ -326,13 +328,9 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
 
             if (remainingTimeRound.HasValue)
             {
-                contadorRondas.text =
-                    "PREGUNTA "
-                    + (QuestionsAsked + 1)
-                    + "/"
-                    + maxQuestions
-                    + " EN "
-                    + Mathf.CeilToInt(remainingTimeRound.Value);
+                contadorRondas.text = LocalizationSettings.StringDatabase.GetLocalizedString("UIJuego","ContadorRondas")  + " "  
+                    +  (Mathf.Min(QuestionsAsked + 1, maxQuestions)) + "/" + maxQuestions + " " + Mathf.CeilToInt(remainingTimeRound.Value);
+
             }
         }
     }
@@ -347,7 +345,8 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
 
             TriviaPlayer.LocalPlayer.Expression = TriviaPlayer.AvatarExpressions.Neutral;
 
-            triviaMessage.text = GameState == TriviaGameState.Intro ? "Select The Correct Answer\nStarting Game Soon" : "New Game Starting Soon!";
+            triviaMessage.text = GameState == TriviaGameState.Intro ? LocalizationSettings.StringDatabase.GetLocalizedString("UIJuego", "IntroText") 
+                : LocalizationSettings.StringDatabase.GetLocalizedString("UIJuego","NewGame");
 
             endGameObject.Hide();
         }
@@ -383,6 +382,7 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
     {
         // Hides the question elements and then shows the game elements / final score / winner elements
         questionElements.SetActive(false);
+        roundRankingPanel.SetActive(false);
 
         // Removes the correct answer highlight
         for (int i = 0; i < answers.Length; i++)
@@ -417,11 +417,13 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
 
         if (winners.Count == 0)
         {
-            triviaMessage.text = "No winners";
+            triviaMessage.text =LocalizationSettings.StringDatabase.GetLocalizedString( "UIJuego","NoGanadores");
+            // triviaMessage.text = "No winners";
         }
         else
         {
-            triviaMessage.text = winners[0].PlayerName.Value + " Wins!";
+            triviaMessage.text = LocalizationSettings.StringDatabase.GetLocalizedString("UIJuego", "Ganador");
+            // triviaMessage.text = winners[0].PlayerName.Value + " Wins!";
         }
 
         // Sets the player expression based on who won.
@@ -442,12 +444,13 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
 
         ranking.Sort((x, y) => y.Score - x.Score);
 
-        string rankingText = "CURRENT RANKING\n\n";
+        string rankingText = LocalizationSettings.StringDatabase.GetLocalizedString(
+        "UIJuego", "ClasificacionActual") + "\n\n";
 
         for (int i = 0; i < ranking.Count; i++)
         {
             rankingText +=
-                (i + 1) + "� "
+                (i + 1) + "º"
                 + ranking[i].PlayerName.Value
                 + " - "
                 + ranking[i].Score
@@ -554,10 +557,12 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
 
     private void UpdateQuestionsAskedText()
     {
+
         if (QuestionsAsked == 0)
             questionIndicatorText.text = "";
         else
-            questionIndicatorText.text = "Question: " + QuestionsAsked + " / " + maxQuestions;
+
+            questionIndicatorText.text = QuestionsAsked + " / " + maxQuestions;
     }
 
     public async void LeaveGame()
