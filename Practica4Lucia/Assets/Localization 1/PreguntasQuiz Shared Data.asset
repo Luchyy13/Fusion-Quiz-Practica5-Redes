@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: PreguntasQuiz Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: PreguntasQuiz
+  m_TableCollectionNameGuidString: da83a3a3421605a4da036da824aaf32d
+  m_Entries:
+  - m_Id: 2208364109824
+    m_Key: Question1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2226491891712
+    m_Key: Q1Correct_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2351830278144
+    m_Key: Q1_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2415105548288
+    m_Key: Q1_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2453919637504
+    m_Key: Q1_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3122852405248
+    m_Key: Question2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3162899619840
+    m_Key: Q2Correct_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3213776527360
+    m_Key: Q2_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3228196544512
+    m_Key: Q2_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3262745026560
+    m_Key: Q2_D
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 630804395418714122
+  references:
+    version: 2
+    RefIds:
+    - rid: 630804395418714122
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1794481114034

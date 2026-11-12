@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: QuizQuestions_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 11e62e9343e013f4b821b256da84311d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 145591619428396
+    m_Localized: Indic Ocean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428397
+    m_Localized: Artic Ocean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428395
+    m_Localized: Atlantic Ocean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428394
+    m_Localized: Pacific Ocean
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428393
+    m_Localized: What is the largest ocean on Earth?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428392
+    m_Localized: Miguel Angel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428391
+    m_Localized: Pablo Picasso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428390
+    m_Localized: Vincent van Gogh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428389
+    m_Localized: Leonardo da Vinci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428388
+    m_Localized: Who painted the Mona Lisa?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428387
+    m_Localized: Bangkok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428386
+    m_Localized: Pekin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428385
+    m_Localized: Seul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428384
+    m_Localized: Tokyo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428383
+    m_Localized: What is the capital of Japan?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428382
+    m_Localized: 1920
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428381
+    m_Localized: 1915
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428380
+    m_Localized: 1910
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428379
+    m_Localized: 1912
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428378
+    m_Localized: In what year did the Titanic sink?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428377
+    m_Localized: Stephen Hawking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428376
+    m_Localized: Galileo Galilei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428375
+    m_Localized: Isaac Newton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428374
+    m_Localized: Albert Einstein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428373
+    m_Localized: Which famous scientist developed the theory of relativity?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428372
+    m_Localized: Hg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428371
+    m_Localized: Fe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428370
+    m_Localized: Ag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428369
+    m_Localized: Au
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428368
+    m_Localized: What is the chemical symbol for gold?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428367
+    m_Localized: Saturn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428366
+    m_Localized: Mars
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428365
+    m_Localized: Venus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428364
+    m_Localized: Jupiter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428363
+    m_Localized: What is the largest planet in our solar system?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428362
+    m_Localized: Mark Twain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428361
+    m_Localized: Jane Austen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428360
+    m_Localized: Charles Dickens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428359
+    m_Localized: William Shakespeare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428358
+    m_Localized: Who wrote the play Romeo and Juliet?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428357
+    m_Localized: 1950
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428356
+    m_Localized: 1947
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428355
+    m_Localized: 1943
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428354
+    m_Localized: 1945
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428353
+    m_Localized: In which year did World War II end?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428352
+    m_Localized: Madrid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591615234051
+    m_Localized: Rome
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591615234050
+    m_Localized: Berlin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591615234049
+    m_Localized: Paris
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591615234048
+    m_Localized: What is the capital of France?
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -94,5 +94,6 @@ public class TriviaQuestionSet : ScriptableObject
 
 			_questions.Add(question);
         }
+
 	}
 }

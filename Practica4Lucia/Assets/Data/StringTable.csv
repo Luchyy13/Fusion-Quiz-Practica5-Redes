@@ -1,0 +1,51 @@
+﻿Key,English(es),Spanish(es)
+Q1_TEXT,What is the capital of France?,¿Cuál es la capital de Francia?
+Q1_A,Paris,París
+Q1_B,Berlin,Berlín
+Q1_C,Rome,Roma
+Q1_D,Madrid,Madrid
+Q2_TEXT,In which year did World War II end?,¿En qué año terminó la Segunda Guerra Mundial?
+Q2_A,1945,1945
+Q2_B,1943,1943
+Q2_C,1947,1947
+Q2_D,1950,1950
+Q3_TEXT,Who wrote the play Romeo and Juliet?,¿Quién escribió la obra Romeo y Julieta?
+Q3_A,William Shakespeare,William Shakespeare
+Q3_B,Charles Dickens,Charles Dickens
+Q3_C,Jane Austen,Jane Austen
+Q3_D,Mark Twain,Mark Twain
+Q4_TEXT,What is the largest planet in our solar system?,¿Cuál es el planeta más grande del sistema solar?
+Q4_A,Jupiter,Júpiter
+Q4_B,Venus,Venus
+Q4_C,Mars,Marte
+Q4_D,Saturn,Saturno
+Q5_TEXT,What is the chemical symbol for gold?,¿Cuál es el símbolo químico del oro?
+Q5_A,Au,Au
+Q5_B,Ag,Ag
+Q5_C,Fe,Fe
+Q5_D,Hg,Hg
+Q6_TEXT,Which famous scientist developed the theory of relativity?,¿Qué famoso científico desarrolló la teoría de la relatividad?
+Q6_A,Albert Einstein,Albert Einstein
+Q6_B,Isaac Newton,Isaac Newton
+Q6_C,Galileo Galilei,Galileo Galilei
+Q6_D,Stephen Hawking,Stephen Hawking
+Q7_TEXT,In what year did the Titanic sink?,¿En qué año se hundió el Titanic?
+Q7_A,1912,1912
+Q7_B,1910,1910
+Q7_C,1915,1915
+Q7_D,1920,1920
+Q8_TEXT,What is the capital of Japan?,¿Cuál es la capital de Japón?
+Q8_A,Tokyo,Tokio
+Q8_B,Seoul,Seúl
+Q8_C,Beijing,Pekín
+Q8_D,Bangkok,Bangkok
+Q9_TEXT,Who painted the Mona Lisa?,¿Quién pintó la Mona Lisa?
+Q9_A,Leonardo da Vinci,Leonardo da Vinci
+Q9_B,Vincent van Gogh,Vincent van Gogh
+Q9_C,Pablo Picasso,Pablo Picasso
+Q9_D,Michelangelo,Miguel Ángel
+Q10_TEXT,What is the largest ocean on Earth?,¿Cuál es el océano más grande de la Tierra?
+Q10_A,Pacific Ocean,Océano Pacífico
+Q10_B,Atlantic Ocean,Océano Atlántico
+Q10_C,Indian Ocean,Océano Índico
+Q10_D,Arctic Ocean,Océano Ártico
