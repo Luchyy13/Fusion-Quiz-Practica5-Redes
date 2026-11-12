@@ -1,4 +1,4 @@
 repository "Práctica4-Redes/Practica4Lucia@20067437867986@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main/Traducción" 
+     
