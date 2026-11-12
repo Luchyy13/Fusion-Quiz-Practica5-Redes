@@ -518,13 +518,32 @@ public class TriviaManager : NetworkBehaviour, IStateAuthorityChanged
 
             int questionIndex = randomizedQuestionList[CurrentQuestion];
 
-            question.text = triviaQuestions.Questions[questionIndex].question;
+            question.text = LocalizationSettings.StringDatabase.GetLocalizedString(
+                "QuizQuestions",triviaQuestions.Questions[questionIndex].question);
+
+            answers[0].text = LocalizationSettings.StringDatabase.GetLocalizedString(
+                "QuizQuestions",
+                triviaQuestions.Questions[questionIndex].correctAnswer);
+
+            answers[1].text = LocalizationSettings.StringDatabase.GetLocalizedString(
+                "QuizQuestions",
+                triviaQuestions.Questions[questionIndex].decoyAnswers[0]);
+
+            answers[2].text = LocalizationSettings.StringDatabase.GetLocalizedString(
+                "QuizQuestions",
+                triviaQuestions.Questions[questionIndex].decoyAnswers[1]);
+
+            answers[3].text = LocalizationSettings.StringDatabase.GetLocalizedString(
+                "QuizQuestions",
+                triviaQuestions.Questions[questionIndex].decoyAnswers[2]);
+
+            /*question.text = triviaQuestions.Questions[questionIndex].question;
 
             answers[0].text = triviaQuestions.Questions[questionIndex].correctAnswer;
 
             answers[1].text = triviaQuestions.Questions[questionIndex].decoyAnswers[0];
             answers[2].text = triviaQuestions.Questions[questionIndex].decoyAnswers[1];
-            answers[3].text = triviaQuestions.Questions[questionIndex].decoyAnswers[2];
+            answers[3].text = triviaQuestions.Questions[questionIndex].decoyAnswers[2];*/
 
             // Scrambles the answers.  This can be different per player.
             List<int> answerIndices = new List<int>() { 0, 1, 2, 3 };

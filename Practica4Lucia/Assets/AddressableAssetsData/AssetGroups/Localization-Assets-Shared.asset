@@ -32,6 +32,16 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da83a3a3421605a4da036da824aaf32d
+    m_Address: Assets/Localization/PreguntasQuiz Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11e62e9343e013f4b821b256da84311d
+    m_Address: Assets/Localization/QuizQuestions Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 20398bcc09ec9834cb4dc0a039168cce, type: 2}
   m_SchemaSet:

@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: QuizQuestions Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: QuizQuestions
+  m_TableCollectionNameGuidString: 11e62e9343e013f4b821b256da84311d
+  m_Entries:
+  - m_Id: 145591615234048
+    m_Key: Q1_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591615234049
+    m_Key: Q1_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591615234050
+    m_Key: Q1_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591615234051
+    m_Key: Q1_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428352
+    m_Key: Q1_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428353
+    m_Key: Q2_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428354
+    m_Key: Q2_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428355
+    m_Key: Q2_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428356
+    m_Key: Q2_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428357
+    m_Key: Q2_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428358
+    m_Key: Q3_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428359
+    m_Key: Q3_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428360
+    m_Key: Q3_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428361
+    m_Key: Q3_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428362
+    m_Key: Q3_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428363
+    m_Key: Q4_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428364
+    m_Key: Q4_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428365
+    m_Key: Q4_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428366
+    m_Key: Q4_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428367
+    m_Key: Q4_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428368
+    m_Key: Q5_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428369
+    m_Key: Q5_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428370
+    m_Key: Q5_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428371
+    m_Key: Q5_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428372
+    m_Key: Q5_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428373
+    m_Key: Q6_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428374
+    m_Key: Q6_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428375
+    m_Key: Q6_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428376
+    m_Key: Q6_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428377
+    m_Key: Q6_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428378
+    m_Key: Q7_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428379
+    m_Key: Q7_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428380
+    m_Key: Q7_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428381
+    m_Key: Q7_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428382
+    m_Key: Q7_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428383
+    m_Key: Q8_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428384
+    m_Key: Q8_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428385
+    m_Key: Q8_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428386
+    m_Key: Q8_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428387
+    m_Key: Q8_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428388
+    m_Key: Q9_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428389
+    m_Key: Q9_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428390
+    m_Key: Q9_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428391
+    m_Key: Q9_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428392
+    m_Key: Q9_D
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428393
+    m_Key: Q10_TEXT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428394
+    m_Key: Q10_A
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428395
+    m_Key: Q10_B
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428396
+    m_Key: Q10_C
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145591619428397
+    m_Key: Q10_D
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 630804395418714127
+  references:
+    version: 2
+    RefIds:
+    - rid: 630804395418714127
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1794484201029
